@@ -1,2 +1,5 @@
+import { App } from "./app";
 import "./styles.css";
-console.log("hlo wrld");
+
+const app = new App();
+app.run();
